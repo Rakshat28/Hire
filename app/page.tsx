@@ -1,16 +1,16 @@
-import React from 'react'
-import HeroSection from './components/HeroSection'
-import FeatureSection from './components/FeatureSection'
-import PricingSection from './components/PricingSection'
 
-function page() {
+import HeroSection from '../components/HeroSection'
+import FeatureSection from '../components/FeatureSection'
+import PricingSection from '../components/PricingSection'
+import Footer from '@/components/Footer'
+
+export default function page() {
   return (
-    <div>
+    <main>
       <HeroSection />
       <FeatureSection />
       <PricingSection />
-    </div>
+      <Footer />
+    </main>
   )
 }
-
-export default page
